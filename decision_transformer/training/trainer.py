@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+import os
 
 import time
 
@@ -31,7 +32,10 @@ class Trainer:
             train_losses.append(train_loss)
             if self.scheduler is not None:
                 self.scheduler.step()
-
+        
+        saver_restore = os.getcwd() + "/saver_data/"
+        self.model.save(directory= saver_restore)
+        
         logs['time/training'] = time.time() - train_start
 
         eval_start = time.time()
