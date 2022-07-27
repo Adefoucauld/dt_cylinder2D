@@ -34,8 +34,8 @@ class Trainer:
             if self.scheduler is not None:
                 self.scheduler.step()
         
-        saver_restore = os.getcwd() + "/saver_data/"
-        self.model.save(directory= saver_restore)
+        #saver_restore = os.getcwd() + "/saver_data/"
+        #self.model.save(directory= saver_restore)
         
         
         logs['time/training'] = time.time() - train_start
@@ -43,7 +43,7 @@ class Trainer:
         '''Save the loss function for plotting'''
         print('Training done')
         with open('train_loss.csv','a') as csv_file : 
-            spam_writer = csv/writer(csv_file,delimiter = ';', lineterminator = "\n")
+            spam_writer = csv.writer(csv_file,delimiter = ';', lineterminator = "\n")
             spam_writer.writerow(["Iter","Step","Loss"])
             for i in range(len(train_losses)):
                 spam_writer.writerow([iter_num+1, i+1, train_losses[i]])
