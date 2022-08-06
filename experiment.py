@@ -45,7 +45,7 @@ def experiment(
 
     # load dataset
     #dataset_path = f'data/{env_name}-{dataset}-v2.pkl'
-    with open('data.pkl', 'rb') as f: #import dataset for training
+    with open('data.pkl', 'rb') as f:
         trajectories = pickle.load(f)
 
     # save all path information into separate lists
