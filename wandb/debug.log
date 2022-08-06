@@ -1,0 +1,47 @@
+2022-07-19 11:47:55,374 DEBUG   MainThread:484 [wandb_config.py:_load_defaults():133] no defaults not found in config-defaults.yaml
+2022-07-19 11:47:55,612 DEBUG   MainThread:484 [meta.py:_setup_code_git():49] probe for git information
+2022-07-19 11:47:55,681 DEBUG   MainThread:484 [run_manager.py:__init__():547] Initialized sync for decision-transformer/2neaznc0
+2022-07-19 11:47:55,693 INFO    MainThread:484 [run_manager.py:wrap_existing_process():1147] wrapping existing process 474
+2022-07-19 11:47:55,693 WARNING MainThread:484 [io_wrap.py:register():104] SIGWINCH handler was not None: <Handlers.SIG_DFL: 0>
+2022-07-19 11:47:55,792 INFO    MainThread:484 [run_manager.py:init_run():926] system metrics and metadata threads started
+2022-07-19 11:47:55,793 INFO    MainThread:484 [run_manager.py:init_run():965] upserting run before process can begin, waiting at most 10 seconds
+2022-07-19 11:47:56,106 INFO    Thread-15 :484 [run_manager.py:_upsert_run():1054] saving pip packages
+2022-07-19 11:47:56,108 INFO    Thread-15 :484 [run_manager.py:_upsert_run():1056] initializing streaming files api
+2022-07-19 11:47:56,109 INFO    Thread-15 :484 [run_manager.py:_upsert_run():1063] unblocking file change observer, beginning sync with W&B servers
+2022-07-19 11:47:56,110 INFO    MainThread:484 [run_manager.py:wrap_existing_process():1164] informing user process we are ready to proceed
+2022-07-19 11:47:56,115 INFO    MainThread:484 [run_manager.py:_sync_etc():1296] entering loop for messages from user process
+2022-07-19 11:47:56,608 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/config.yaml
+2022-07-19 11:47:56,933 INFO    Thread-4  :484 [run_manager.py:_on_file_created():681] file/dir created: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/requirements.txt
+2022-07-19 11:47:56,936 INFO    Thread-4  :484 [run_manager.py:_on_file_created():681] file/dir created: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/output.log
+2022-07-19 11:47:56,939 INFO    Thread-4  :484 [run_manager.py:_on_file_created():681] file/dir created: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:48:12,641 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:48:24,652 INFO    Thread-4  :484 [run_manager.py:_on_file_created():681] file/dir created: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:48:28,654 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:48:44,670 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:48:54,678 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:49:00,694 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:49:16,728 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:49:24,773 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:49:32,791 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:49:48,824 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:49:55,833 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:50:04,842 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:50:20,865 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:50:25,874 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:50:36,902 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:50:52,930 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:50:55,934 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:51:08,946 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:51:24,968 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:51:25,969 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:51:40,987 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-metadata.json
+2022-07-19 11:51:47,090 INFO    MainThread:484 [run_manager.py:_sync_etc():1353] process received interrupt signal, shutting down
+2022-07-19 11:51:47,101 INFO    MainThread:484 [run_manager.py:_sync_etc():1406] closing log streams and sending exitcode to W&B
+2022-07-19 11:51:47,115 INFO    MainThread:484 [run_manager.py:shutdown():1070] shutting down system stats and metadata service
+2022-07-19 11:51:47,234 INFO    MainThread:484 [run_manager.py:shutdown():1084] stopping streaming files and file change observer
+2022-07-19 11:51:47,994 INFO    Thread-4  :484 [run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:51:50,350 INFO    MainThread:484 [run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2022-07-19 11:51:50,359 INFO    MainThread:484 [run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/adefoucauld/decision-transformer/runs/2neaznc0
+,994 INFO    Thread-4  :484 [2neaznc0:run_manager.py:_on_file_modified():692] file/dir modified: /home/fenics/local/decision-transformer/gym/wandb/run-20220719_114754-2neaznc0/wandb-events.jsonl
+2022-07-19 11:51:50,350 INFO    MainThread:484 [2neaznc0:run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2022-07-19 11:51:50,359 INFO    MainThread:484 [2neaznc0:run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/adefoucauld/decision-transformer/runs/2neaznc0

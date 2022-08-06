@@ -1,0 +1,27 @@
+{
+    "root": "/home/fenics/local/decision-transformer",
+    "program": "experiment.py",
+    "git": {
+        "remote": "https://github.com/kzl/decision-transformer.git",
+        "commit": "e2d82e68f330c00f763507b3b01d774740bee53f"
+    },
+    "email": "you@example.com",
+    "startedAt": "2022-07-19T11:47:54.716634",
+    "host": "45b8f1aad6c1",
+    "username": "fenics",
+    "executable": "/usr/bin/python3",
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.7",
+    "cpu_count": 4,
+    "args": [
+        "-w",
+        "True"
+    ],
+    "state": "killed",
+    "jobType": null,
+    "mode": "run",
+    "name": "dt_cylinder-Cylinder2D-194573",
+    "project": "decision-transformer",
+    "heartbeatAt": "2022-07-19T11:51:47.229757",
+    "exitcode": 255
+}

@@ -37,7 +37,7 @@ def experiment(
 
     env = resume_env(plot=False, dump_CL=100, dump_debug=1)
     max_ep_len = 500 #corresponds to nb of action_steps in single_runner.py
-    env_targets = [1]
+    env_targets = [0.1]
     scale = 1    
 
     state_dim = env.states()['obs']['shape'][0]
@@ -260,7 +260,7 @@ if __name__ == '__main__':
     
     parser.add_argument('--embed_dim', type=int, default=128)
     
-    parser.add_argument('--n_layer', type=int, default=6)
+    parser.add_argument('--n_layer', type=int, default=4)
     parser.add_argument('--n_head', type=int, default=4)
     
     parser.add_argument('--activation_function', type=str, default='relu')
@@ -270,8 +270,8 @@ if __name__ == '__main__':
     
     parser.add_argument('--warmup_steps', type=int, default=10000)
     parser.add_argument('--num_eval_episodes', type=int, default=1)
-    parser.add_argument('--max_iters', type=int, default=5)
-    parser.add_argument('--num_steps_per_iter', type=int, default=10000)
+    parser.add_argument('--max_iters', type=int, default=1)
+    parser.add_argument('--num_steps_per_iter', type=int, default=1000)
     
     parser.add_argument('--device', type=str, default='cpu')
     parser.add_argument('--log_to_wandb', '-w', type=bool, default=False)
