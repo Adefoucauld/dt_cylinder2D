@@ -252,7 +252,7 @@ def experiment(
         # wandb.watch(model)  # wandb has some bug
 
     # for iter in range(variant['max_iters']):
-    outputs = trainer.train_iteration(num_steps=variant['num_steps_per_iter'], iter_num=iter+1, print_logs=True)
+    outputs = trainer.train_iteration(num_steps=variant['num_steps_per_iter'], iter_num=1, print_logs=True)
     if log_to_wandb:
         wandb.log(outputs)
 
