@@ -53,6 +53,10 @@ if __name__ == '__main__':
     parser.add_argument('--max_iters', type=int, default=1)
     parser.add_argument('--num_steps_per_iter', type=int, default=1000)
     
+    parser.add_argument('--max_ep_len', type=int, default=500)
+    parser.add_argument('--scale', type=int, default=1)
+    parser.add_argument('--env_targets', type=list, default=[0.1])
+    
     parser.add_argument('--device', type=str, default='cpu')
     parser.add_argument('--log_to_wandb', '-w', type=bool, default=False)
     
@@ -75,9 +79,9 @@ if __name__ == '__main__':
             timing_print=(crrt_simu == 0)     # Only print time info for env_0
         ))
 
-    max_ep_len = 500
-    scale = 1
-    env_targets = [0.1]
+    max_ep_len = arguments["max_ep_len"]
+    scale = arguments["scale"]
+    env_targets = arguments["env_targets"]
     
     for env in environments:
         p = Process(target = experiment, args = (arguments,env, max_ep_len,env_targets,scale))
